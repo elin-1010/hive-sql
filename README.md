@@ -1,11 +1,12 @@
 # hive-sql
-
-
-hsql的学习笔记
-contents will cover the basics
+                                                        --10的hsql的学习笔记--
 
 
 
-1-1 【what is sql and what is hive sql /hsql】
+## 1-1 【what is sql and what is hive sql /hsql】
 
-1-2 【date and time】
+
+
+## 1-2 【date & time】
+
+
