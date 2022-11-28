@@ -1,3 +1,3 @@
-# hive-sql
+# for-hive-sql
 recording.....
 hsql的学习笔记
