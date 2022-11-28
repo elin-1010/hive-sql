@@ -1,5 +1,6 @@
-# for-hive-sql
-recording.....
+# hive-sql
+
+
 hsql的学习笔记
 contents will cover the basics
 
