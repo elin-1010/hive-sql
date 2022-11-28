@@ -1,6 +1,6 @@
 - 日期分区：
   date = '${date}' 格式为 yyyyMMdd
-  date = '${DATE}' 格式为yyyy-MM-dd
+  date = '${DATE}' 格式为 yyyy-MM-dd
 - 截取小时： 
   substr(create_time,1,13) as hour
 - 截取日期： 
