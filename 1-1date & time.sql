@@ -24,6 +24,6 @@
 - 仪表盘中：
   将date日期分区变为可时间排序yyyy-MM-dd：CAST(date as Nullable(Date))
 - 取一段时间范围内时间：
-  where date between '20220701' and '20220711‘
+  where date between '20220701' and '20220711'
   date_format(create_time,'yyyyMMdd') = '${date}'
   from_unixtime(create_time, 'yyyyMMdd') between '20220601' and '20220725'
