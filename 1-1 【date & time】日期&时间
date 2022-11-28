@@ -7,13 +7,13 @@
   to_date(create_time) as date
   substr(create_time,1,10) as date
 - 截取月份：
-  substr(apply_time,1,7) as month
+  substr(create_time,1,7) as month
 - 日期date分区转化中间横线格式：
   '${date,yyyy-MM-dd}'
   substr(date,1,4)||'-'||substr(date,5,2)||'-'||substr(date,7,2) as date
 - 时间戳：
-  FROM_UNIXTIME(created_at) as create_time
-  from_unixtime(received_time,'yyyy-MM-dd') as risktime
+  FROM_UNIXTIME(create_time) as create_time
+  from_unixtime(create_time,'yyyy-MM-dd') as risktime
   from_unixtime(unix_timestamp(date ,'yyyyMMdd'),'yyyy-MM-dd') as date,
 - 日期差： 
   datediff(create_time,apply_time)
